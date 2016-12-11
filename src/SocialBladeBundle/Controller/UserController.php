@@ -21,7 +21,7 @@ class UserController extends Controller
     public function registerAction(Request $request)
     {
         // 1) build the form
-        $user = new User();
+        $user = new User();//comment for test reasons--------- PLEASE DELETE-----------------------------------------------
         $form = $this->createForm(UserType::class, $user);
 
         // 2) handle the submit (will only happen on POST)
