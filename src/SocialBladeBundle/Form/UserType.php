@@ -28,7 +28,7 @@ class UserType extends AbstractType
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'SoftUniBlogBundle\Entity\User',
+            'data_class' => 'SocialBladeBundle\Entity\User',
         ));
     }
 }
